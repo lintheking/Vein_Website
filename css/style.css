@@ -57,7 +57,6 @@ nav a {
 
 nav li:hover {
   font-size: 16px;
-  display: inline-block;
   color: white;
   background-color: #FFE2E2;
   text-decoration: none;
@@ -65,7 +64,7 @@ nav li:hover {
 
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+
   color: #000000;
 }
 
@@ -77,6 +76,8 @@ nav a.active {
 
 .nav-punkte {
   text-align: center;
+  display: flex;
+    align-items: center;
 }
 
 #burgermenu {
@@ -99,7 +100,6 @@ footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding-left: 5%;
 }
 
 footer ul li {
@@ -118,7 +118,7 @@ footer li a {
 
 footer li:hover {
   font-size: 16px;
-  display: inline-block;
+  
   color: white;
   background-color: #FFE2E2;
   text-decoration: none;
@@ -126,7 +126,7 @@ footer li:hover {
 
 
 footer a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+
   color: #000000;
 }
 
@@ -140,9 +140,8 @@ footer a.active {
   text-align: center;
 }
 
-.inactive {
-;
-width: 200%;
+.inactive:hover {
+background-color: transparent;
 }
 
 section,
@@ -272,8 +271,8 @@ h1 {
   font-size: 16px;
   padding: 12px 24px;
   margin: 10px 0 10px 0 !important;
-  background-color: transparent;
-  color: #000;
+  background-color: #000!important;
+  color: #fff;
   border: solid;
   border-color: black;
   text-align: center;
@@ -282,9 +281,7 @@ h1 {
   line-height: 16px;
 }
 
-.button-rose {
-  background-color: #FFE2E2;
-}
+
 
 .nopadding {
   padding: 0 !important;
