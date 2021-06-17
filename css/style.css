@@ -88,6 +88,12 @@ nav a.active {
   padding: 0;
 }
 
+.counter-klein {
+  width: 30%;
+}
+
+
+
 #footer {
     padding: 0;
     background-color: #FFE2E2;
@@ -857,8 +863,12 @@ h1 {
   #burgermenu {
     width: 5%;
     color: white;
-
   }
+
+
+.counter-klein {
+  width: 15%;
+}
 }
 
 @media (min-width:768px) {
