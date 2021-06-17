@@ -100,7 +100,6 @@ footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding-left: 5%;
 }
 
 footer ul li {
@@ -141,9 +140,8 @@ footer a.active {
   text-align: center;
 }
 
-.inactive {
-;
-width: 200%;
+.inactive:hover {
+background-color: transparent;
 }
 
 section,
