@@ -169,7 +169,7 @@
                         <img src="./images/emma.jpg" alt="Emma">
                     </div>
                     <h3>Emma</h3>
-                    <p>„Meine erste Wahl an einem schönen
+                    <p class="umbruch2">„Meine erste Wahl an einem schönen
                         Mädelsabend ist immer der Weißwein!
                         Damit tratscht es sich am Besten!“</p>
 
@@ -179,7 +179,7 @@
                     <img src="./images/alex.jpg" alt="Alex">
                 </div>
                     <h3>Alex</h3>
-                    <p>„Mein Favorit ist der Rosé.
+                    <p class="umbruch2">„Mein Favorit ist der Rosé.
                         Vor allem im Sommer gibt
                         es nichts erfrischenderes!“</p>
                 </div>
@@ -188,19 +188,50 @@
                     <img src="./images/paula.jpg" alt="Paula">
                 </div>
                     <h3>Paula</h3>
-                    <p>„Normalerweise greife ich nicht zu
+                    <p class="umbruch2">„Normalerweise greife ich nicht zu
                         Rotwein. Die Variante von Vein
                         schmeckt mir aber besonders gut.“</p>
                 </div>
             </div>
         </div>
 
-        <div class="pink col-md-12">
+
+<div class="w3-content w3-section">
+    <div class="pink">
         <h2 class="umbruch">Das sagt die Presse</h2>
         <p>"Einmalig treffen Nachhaltigkeit und voller Geschmack in Einklang!
           Wir sind überzeugt und sagen ja zu einer grünen Zukunft!"</p>
         <p class="umbruch2">Wiesbadener Kurier</p>
     </div>
+    <div class="pink">
+        <h2 class="umbruch">Das sagt die Presse</h2>
+        <p>"sooooooo geil"</p>
+        <p class="umbruch2">Wiesbadener Kurier</p>
+    </div>
+    <div class="pink">
+        <h2 class="umbruch">Das sagt die Presse</h2>
+        <p>"Paula ist ne tolle"</p>
+        <p class="umbruch2">Wiesbadener Kurier</p>
+    </div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("pink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
         <div>
             <h2>Kontakt & Händlersuche</h2>
             <p><strong>Vein GmbH</strong>

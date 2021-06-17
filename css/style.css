@@ -144,7 +144,10 @@ article {
   height: 100vh;
 }
 
-
+.voices {
+  margin-top: 30px;
+  padding-top: 30px;
+}
 
 .keyvisual {
   padding: 0 !important;
@@ -188,9 +191,6 @@ h1 {
   box-shadow: 0 5px 15px rgba(255, 255, 255, .5);
 }
 
-.voices {
-  margin-top: 10%;
-}
 
 .voices-img {
   display: inline-block;
