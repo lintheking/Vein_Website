@@ -59,6 +59,7 @@ nav li:hover {
   text-decoration: none;
 }
 
+
 nav a:hover {
   background-color: rgba(255, 255, 255, 0.5);
   color: #000000;
@@ -137,6 +138,8 @@ article {
   height: 100vh;
 }
 
+
+
 .keyvisual {
   padding: 0 !important;
   width: 100%;
@@ -153,11 +156,13 @@ article {
 
 .headline {
   align-self: flex-end;
-  margin: 10% !important;
+    margin: 10% !important;
+    text-align: end;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 10em;
+  line-height: 0.8;
 }
 
 .produkte {
