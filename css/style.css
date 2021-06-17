@@ -90,6 +90,7 @@ nav a.active {
 
 #footer {
     padding: 0;
+    background-color: #FFE2E2;
 }
 
 footer i {
@@ -120,7 +121,7 @@ footer li:hover {
   font-size: 16px;
   
   color: white;
-  background-color: #FFE2E2;
+
   text-decoration: none;
 }
 
@@ -224,7 +225,7 @@ article {
     margin: 10% !important;
     text-align: end;
     position: absolute;
-    right: 50px;
+    right: 30px;
 
 }
 
