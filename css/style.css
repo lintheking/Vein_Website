@@ -118,7 +118,7 @@ footer li a {
 
 footer li:hover {
   font-size: 16px;
-  
+
   color: white;
   background-color: #FFE2E2;
   text-decoration: none;
@@ -185,6 +185,10 @@ article {
   padding: 20px;
 }
 
+.favoriten {
+  text-align: center;
+}
+
 .umbruch {
   padding-bottom: 40px!important;
   padding-top: 30px!important;
@@ -210,7 +214,7 @@ article {
   height: auto;
   background-image: url(./images/header.jpg);
   background-size: cover;
-  
+
 }
 
 .header-right {
