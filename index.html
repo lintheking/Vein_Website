@@ -60,8 +60,7 @@
                     </ul>
     </nav>
 
-    <div class="header row">
-
+    <!--<div class="header row">
         <div class=" keyvisual">
             <div class="container">
             <div class="row">
@@ -73,8 +72,31 @@
         </div>
         </div>
 
+    </div>-->
+
+    <div class="w3-content w3-section">
+        <div class="diashow"><img src="./images/header.jpg" width="100%"></div>
+        <div class="diashow"><img src="./images/header2.jpg" width="100%"></div>
+        <div class="diashow"><img src="./images/header3.jpg" width="100%"></div>
     </div>
 
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("diashow");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 5 seconds
+        }
+        </script>
+    
 
     <div class="details">
         <div class="row">
