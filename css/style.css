@@ -195,7 +195,8 @@ article {
 .baumcounter {
   position: absolute;
     top: 30%;
-    right: 17%;
+    right: 15%;
+    z-index: 0;
 }
 
 .baumcounter {
