@@ -93,17 +93,42 @@ article {
 }
 
 .VEganistIN {
-  color: #5FA361;
+  color:#5FA361;
 }
 
 .details {
-  margin: 40px !important;
+  margin: 40px!important;
+}
+
+.details-team {
+  margin-top: 50px!important;
+  padding-left: 0% !important;
+  margin-bottom: 50px!important;
+}
+
+.vorbild-green {
+  color:#5FA361;
+}
+
+.pink {
+  margin: 0;
+  background-color: #FFE2E2;
+  width: 100%;
+  text-align: center;
 }
 
 .green {
   background-color: #5FA361;
   color: white;
   padding: 20px;
+}
+
+.umbruch {
+  padding-bottom: 100px!important;
+  padding-top: 30px!important;
+}
+.umbruch2 {
+  padding-bottom: 30px!important;
 }
 
 .header {
