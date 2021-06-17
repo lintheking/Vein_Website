@@ -125,7 +125,7 @@ footer li a {
 
 footer li:hover {
   font-size: 16px;
-  
+
   color: white;
 
   text-decoration: none;
@@ -176,7 +176,7 @@ article {
 
 .vorbild-sein {
   color:rgb(155,205,155);
-  margin-top: 35px;
+  margin-top: 90px;
 }
 
 .pink {
@@ -217,7 +217,7 @@ article {
   height: auto;
   background-image: url(./images/header.jpg);
   background-size: cover;
-  
+
 }
 
 .header-right {
