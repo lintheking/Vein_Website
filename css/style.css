@@ -107,7 +107,7 @@ footer ul li {
   display: inline-block;
 }
 
-footer a {
+footer li a {
   font-size: 16px;
   padding: 20px;
   display: inline-block;
