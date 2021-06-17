@@ -271,8 +271,8 @@ h1 {
   font-size: 16px;
   padding: 12px 24px;
   margin: 10px 0 10px 0 !important;
-  background-color: transparent;
-  color: #000;
+  background-color: #000!important;
+  color: #fff;
   border: solid;
   border-color: black;
   text-align: center;
@@ -281,9 +281,7 @@ h1 {
   line-height: 16px;
 }
 
-.button-rose {
-  background-color: #FFE2E2;
-}
+
 
 .nopadding {
   padding: 0 !important;
