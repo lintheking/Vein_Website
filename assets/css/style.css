@@ -192,7 +192,6 @@ article {
 }
 
 .pink {
-  margin: 0;
   background-color: #FFE2E2;
   width: 100%;
   text-align: center;
@@ -300,6 +299,12 @@ article {
 
 .voices-block {
   text-align: center;
+}
+
+.presse {
+  color: black;
+  background-color: green;
+  height: 50vh;
 }
 
 .button {
