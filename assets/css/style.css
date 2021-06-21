@@ -43,6 +43,10 @@ font-family: 'Cairo', sans-serif!important;
 .nav-punkte {
   text-align: center;
 }
+
+nav .active {
+  background-color: #fff!important;
+}
 /*
 nav i {
   font-size: 1.5em;
@@ -310,9 +314,18 @@ article {
   padding: 0 !important;
 }
 
-.carousel-item {
-  height: 50vh;
-  background-color: #cde6cd;
+.slider {
+  height: 30vh;
+  background-color: #FFE2E2;
+  color: #000!important;
+}
+
+.presse .active {
+  background-color: #FFE2E2;
+}
+
+.carousel-caption {
+  color: #000!important;
 }
 
 /* Slideshow container */
