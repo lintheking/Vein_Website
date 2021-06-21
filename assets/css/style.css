@@ -108,7 +108,9 @@ nav a.active {
   width: 30%;
 }
 
-
+.presse {
+  color: black!important;
+}
 
 #footer {
     padding: 0;
@@ -204,7 +206,7 @@ article {
 }
 
 .grüne-box {
-  background-color: rgb(155,205,155,0.5);
+  background-color: rgba(155,205,155,0.5);
   color: #000;
   padding: 20px;
 }
@@ -302,16 +304,6 @@ article {
 .voices-block {
   text-align: center;
 }
-
-.presse {
-  color: black;
-  background-color: green;
-  height: 50vh;
-}
-
-
-
-
 
 
 .nopadding {
