@@ -17,6 +17,10 @@ p {
   margin: 10px 0 10px 0 !important;
 }
 
+.btn-primary {
+  background-color: #000000!important;
+}
+
 /*nav {
   background-color: rgba(255, 255, 255, 0.5);
 font-family: 'Cairo', sans-serif!important;
@@ -305,24 +309,8 @@ article {
   height: 50vh;
 }
 
-.button {
-  display: inline-block;
-  font-size: 16px;
-  padding: 12px 24px;
-  margin: 10px 0 10px 0 !important;
-  background-color: #000!important;
-  color: #fff;
-  border: solid;
-  border-color: black;
-  text-align: center;
-  border-radius: 5px;
-  text-decoration: none;
-  line-height: 16px;
-}
 
-.btn-primary {
-  background-color: #000;
-}
+
 
 
 
