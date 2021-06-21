@@ -318,6 +318,10 @@ article {
   line-height: 16px;
 }
 
+.btn-primary {
+  background-color: #000!important;
+}
+
 
 
 .nopadding {
