@@ -17,8 +17,14 @@ p {
   margin: 10px 0 10px 0 !important;
 }
 
+.infos {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .btn-primary {
   background-color: #000000!important;
+  margin-left: 10%!important;
 }
 
 /*nav {
