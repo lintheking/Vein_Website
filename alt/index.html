@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>vein</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/baumcounter.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        <!--
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+        //
+        -->
+
+    </script>
+    <script>
+        $(function () {
+            var menuVisible = false;
+            $('#burgermenu').click(function () {
+                if (menuVisible) {
+                    $('#navliste').addClass("hidden-mobile")
+                    menuVisible = false;
+                    return;
+                }
+                $('#navliste').removeClass("hidden-mobile")
+                menuVisible = true;
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+
+
+    <nav class="nav-logo">
+          <img id="burgermenu" src="./images/bars-solid.svg" alt="Burgermenu">
+           <ul id="navliste" class="hidden-mobile">
+                  <div class="row" id="Baumcounter">
+                <li class="col-sm-12 col-md-2 nav-punkte inactive"><a href="#details"><img id="logo"
+                            src="./images/logo.png" alt="Vein-Logo" width="20%"></a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#Team">Unsere Story</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#produkte">Unsere Weine</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#contact">Kontakt & Händler</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#baum"><img class="counter-klein"
+                            src="./images/counter-klein.png" alt="counter"></a></li>
+                <li class="col-sm-12 col-md-1 nav-punkte"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="col-sm-12 col-md-1 nav-punkte"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+    </nav>
+
+
+    </div>
+    <div class="header">
+        <div>
+
+            <div class="headline">
+                <h1>Mit<br> Freunden<br>veinen.</h1>
+                <a href="#details"><button class="button button-rose"><strong>JETZT MEHR ERFAHREN</strong></button></a>
+            </div>
+            <div class="diashow-img">
+                <div class="diashow"><img src="./images/header.jpg" width="100%"></div>
+                <div class="diashow"><img src="./images/header2.jpg" width="100%"></div>
+                <div class="diashow"><img src="./images/header3.jpg" width="100%"></div>
+                <div class="diashow"><img src="./images/header5.jpg" width="100%"></div>
+            </div>
+        </div>
+
+
+        <script>
+            var myIndex = 0;
+            carousel2();
+
+            function carousel2() {
+                var i;
+                var x = document.getElementsByClassName("diashow");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 5
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel2, 5000); // Change image every 3 seconds
+            }
+        </script>
+    </div>
+
+    <div id="details" class="details">
+        <div class="row">
+            <div class="nopadding col-md-12" id="mehrdetails">
+                <h2>Was steckt hinter vein?</h2><br>
+                <h3 class="VEganistIN">"VEIN- VEgan ist IN."</h3>
+                <p>"Wir sind ein kleines Startup mit einem gro&szligen Traum: Unser Ziel ist es mit
+                    unserem Produkt einen Beitrag f&uumlr eine nachhaltigere Lebensweise zu leisten.
+                    Mit unseren perfekt abgeschmeckten, alkoholfreien Veinen wollen wir einer
+                    bewussteren Zukunft entgegentreten. Die vegane Produktion und das Pflanzen
+                    neuer B&aumlume sorgen f&uumlr eine Symbiose aus Nachhaltigkeit und Genuss.
+                    Nur gemeinsam k&oumlnnen wir etwas in dieser Welt bewirken."
+            </div>
+        
+            <a onclick="toggle_visibility('foo');"><button class="button mehrdetails"><strong>weniger
+                        lesen</strong></button></a>
+            <div id="foo">
+                <div class="grüne-box col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 style="margin-bottom:5px">"Natur f&aumlngt mit VEIN an."</h3>
+                            <p>15.000.000 B&aumlume werden jedes Jahr weltweit gef&aumlllt. Um diesem Problem
+                                entgegenzuwirken haben wir uns mit Vein ein Konzept &uumlberlegt. Jede Weinflasche,
+                                die bei unseren ausgew&aumlhlten H&aumlndlern gekauft wird, kann auch dort wieder nach
+                                dem Verzehr abgegeben und wiederverwertet werden. F&uumlr jede abgegebene Flasche
+                                werden wir im Gegenzug einen Baum pflanzen. &Uumlber unseren Baumcounter bleibt
+                                ihr immer auf dem neusten Stand und k&oumlnnt so den Prozess live und transparent
+                                mitverfolgen.
+                            </p>
+                        </div>
+                        <div class col-md-6>
+                            <img class="baum" src="./images/baum.png" id="baum" alt="Baum">
+                            <div class="baumcounter">
+                                <h3>Ihr habt bisher</h3>
+                                <span class="number" data-number="0">
+                                    <span class="primary">
+                                    </span>
+                                    <span class="secondary">
+                                    </span>
+                                </span>
+                                <span class="number" data-number="1">
+                                    <span class="primary">
+                                    </span>
+                                    <span class="secondary">
+                                    </span>
+                                </span>
+                                <span class="number" data-number="2">
+                                    <span class="primary">
+                                    </span>
+                                    <span class="secondary">
+                                    </span>
+                                </span>
+                                <span class="number" data-number="8">
+                                    <span class="primary">
+                                    </span>
+                                    <span class="secondary">
+                                    </span>
+                                </span>
+                                <h3>Bäume gepflanzt</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-team">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/team.jpeg" width="80%">
+                        </div>
+                        <div class="col-md-6" id="Team">
+                            <h2 class="vorbild-sein">"Mit Vein ein Vorbild sein."</h2>
+                            <p>"Wir sind ein kleines Startup mit einem großen Traum: Unser Ziel ist es mit
+                                unserem Produkt einen Beitrag für eine nachhaltigere Lebensweise zu leisten.
+                                Mit unseren perfekt abgeschmeckten, alkoholfreien Veinen wollen wir einer
+                                bewussteren Zukunft entgegentreten. Die vegane Produktion und das Pflanzen
+                                neuer Bäume sorgen für eine Symbiose aus Nachhaltigkeit und Genuss.
+                                Nur gemeinsam können wir etwas in dieser Welt bewirken.“
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <div id="produkte" class="produkte">
+        <img class="rose" src="./images/rose.png" width="100%">
+    </div>
+    <div class="voices">
+        <div class="row">
+            <div class="col-md-4 voices-block">
+
+                <div class="voices-img">
+                    <img src="./images/emma.jpg" alt="Emma">
+                </div>
+                <h3>Emma</h3>
+                <p class="umbruch2">„Meine erste Wahl an einem schönen
+                    Mädelsabend ist immer der Weißwein!
+                    Damit tratscht es sich am Besten!“</p>
+
+            </div>
+            <div class="col-md-4 voices-block">
+                <div class="voices-img">
+                    <img src="./images/alex.jpg" alt="Alex">
+                </div>
+                <h3>Alex</h3>
+                <p class="umbruch2">„Mein Favorit ist der Rosé.
+                    Vor allem im Sommer gibt
+                    es nichts erfrischenderes!“</p>
+            </div>
+            <div class="col-md-4 voices-block">
+                <div class="voices-img">
+                    <img src="./images/paula.jpg" alt="Paula">
+                </div>
+                <h3>Paula</h3>
+                <p class="umbruch2">„Normalerweise greife ich nicht zu
+                    Rotwein. Die Variante von Vein
+                    schmeckt mir aber besonders gut.“</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-content w3-section">
+        <div class="pink">
+            <h2 class="umbruch">Das sagt die Presse</h2>
+            <p>"Einmalig treffen Nachhaltigkeit und voller Geschmack in Einklang!
+                Wir sind überzeugt und sagen ja zu einer grünen Zukunft!"</p>
+            <p class="umbruch2"><em>Wiesbadener Kurier</em></p>
+        </div>
+        <div class="pink">
+            <h2 class="umbruch">Das sagt die Presse</h2>
+            <p>"this wine is so sexy!"</p>
+            <p class="umbruch2"><em>Playboy</em></p>
+        </div>
+        <div class="pink">
+            <h2 class="umbruch">Das sagt die Presse</h2>
+            <p>"Vein for president!"</p>
+            <p class="umbruch2"><em>Joe Biden</em></p>
+        </div>
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("pink");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 5 seconds
+        }
+    </script>
+
+    <div class="details">
+        <div class="row">
+            <div class="col-md-6" id="contact">
+                <h2>Kontakt & Händlersuche</h2>
+                <p><strong>Vein GmbH</strong> </p>
+                <div> Karlstraße 37 </div>
+                <div> 65185 Wiesbaden </div>
+                <div> 0611/1234678 </div>
+                <a href= mailto: info@vein.de>info@vein.de</a>
+
+                <p><strong>Warum haben wir keinen Onlineshop?</strong></p>
+                <p>Ganz einfach: Wir möchten unsere Umwelt so wenig wie möglich
+                    belasten. Deshalb beliefern wir einzelne Händler mit größeren
+                    Mengen, um unseren CO2-Ausstoß so gering wie möglich zu
+                    halten. Sucht hier den Händler in Eurer Nähe und veint ohne
+                    schlechtes Gewissen!</p>
+
+                <button class="button"><strong>65185 Wiesbaden</strong></button>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1AKuPGy1rpkIAaDOld-CFIqw3kkWNWjPi" width="640"
+                    height="480"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <ul>
+                  <div class="row">
+                <li class="col-sm-12 col-md-2 nav-punkte inactive"><a href="#"><img id="logo" src="./images/logo.png"
+                            alt="Vein-Logo" width="20%"></a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#">Impressum</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#">Datenschutz</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#">AGB</a></li>
+                <li class="col-sm-12 col-md-2 nav-punkte"><a href="#baum"><img class="counter-klein"
+                    src="./images/counter-klein.png" alt="counter"></a></li>
+                <li class="col-sm-12 col-md-1 nav-punkte"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="col-sm-12 col-md-1 nav-punkte"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </div>
+                </ul>
+    </footer>
+</body>
+
+</html>
