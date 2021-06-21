@@ -310,6 +310,10 @@ article {
   padding: 0 !important;
 }
 
+.carousel-item {
+  height: 50vh;
+  background-color: #cde6cd;
+}
 
 /* Slideshow container */
 .slideshow-container {
