@@ -4,15 +4,22 @@
 
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Cairo', sans-serif;
 }
+
 h1 {
   font-size: 10em;
   line-height: 0.8;
-  color:#000000;
+  color: #000000;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
 }
+
 p {
   margin: 10px 0 10px 0 !important;
 }
@@ -23,8 +30,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #000000!important;
-  margin-left: 10%!important;
+  background-color: #000000 !important;
 }
 
 /*nav {
@@ -40,18 +46,30 @@ font-family: 'Cairo', sans-serif!important;
 }*/
 
 .navbar-brand {
-	width: 40px;
+  width: 40px;
+ 
 }
+
+.nav-link {
+  color: #000!important;
+}
+
 .logo-nav {
   height: 3em;
 
 }
+
 .nav-punkte {
   text-align: center;
 }
 
 nav .active {
-  background-color: #fff!important;
+  background-color: #fff !important;
+}
+
+nav .fab {
+  color: #000;
+  font-size: 1.3em;
 }
 /*
 nav i {
@@ -92,8 +110,8 @@ nav a:hover {
   color: #000000;
 }*/
 
-.background-nav{
-    background-color: rgba(255,226,226,0.5)!important;
+.background-nav {
+  background-color: rgba(255, 226, 226, 0.5) !important;
 }
 
 nav a.active {
@@ -103,7 +121,7 @@ nav a.active {
 .nav-punkte {
   text-align: center;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 #burgermenu {
@@ -119,12 +137,12 @@ nav a.active {
 }
 
 .carousel-caption {
-  color: black!important;
+  color: black !important;
 }
 
 #footer {
-    padding: 0;
-    background-color: #FFE2E2;
+  padding: 0;
+  background-color: #FFE2E2;
 }
 
 footer i {
@@ -174,7 +192,7 @@ footer a.active {
 
 
 .inactive:hover {
-background-color: transparent;
+  background-color: transparent;
 }
 
 /*section,
@@ -187,25 +205,43 @@ article {
 }*/
 
 .bg-mint {
-	background: #cde6cd;
+  background: #cde6cd;
+}
+
+.modal-dialog {
+  max-width: 90% !important;
+}
+
+.modal h2, modal p {
+  text-align: left;
+}
+
+.modal img {
+  max-width: 100%;
+}
+
+.baum:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  cursor: pointer;
+}
 }
 
 .VEganistIN {
-  color:rgb(155,205,155);
+  color: rgb(155, 205, 155);
 }
 
 .details {
-  margin: 40px!important;
+  margin: 40px !important;
 }
 
 .details-team {
-  margin-top: 50px!important;
+  margin-top: 50px !important;
   padding-left: 0% !important;
-  margin-bottom: 50px!important;
+  margin-bottom: 50px !important;
 }
 
 .vorbild-sein {
-  color:rgb(155,205,155);
+  color: rgb(155, 205, 155);
   margin-top: 90px;
 }
 
@@ -216,16 +252,16 @@ article {
 }
 
 .grüne-box {
-  background-color: rgba(155,205,155,0.5);
+  background-color: rgba(155, 205, 155, 0.5);
   color: #000;
   padding: 20px;
 }
 
 .baumcounter {
   position: absolute;
-    top: 30%;
-    right: 15%;
-    z-index: 0;
+  top: 30%;
+  right: 15%;
+  z-index: 0;
 }
 
 .baumcounter {
@@ -234,18 +270,20 @@ article {
 }
 
 .umbruch {
-  padding-bottom: 40px!important;
-  padding-top: 30px!important;
+  padding-bottom: 40px !important;
+  padding-top: 30px !important;
 }
+
 .umbruch2 {
-  padding-bottom: 30px!important;
+  padding-bottom: 30px !important;
 }
 
 .header {
-/*  overflow: hidden;
+  /*  overflow: hidden;
   padding: 0px;
   height: 100vh;
-}*/}
+}*/
+}
 
 
 .keyvisual {
@@ -265,10 +303,10 @@ article {
 
 .headline {
   align-self: flex-end;
-    margin: 10% !important;
-    text-align: end;
-    position: absolute;
-    right: 30px;
+  margin: 10% !important;
+  text-align: end;
+  position: absolute;
+  right: 30px;
 
 }
 
@@ -280,11 +318,8 @@ article {
 
 
 
-.produkte {
-  background-image: url("images/produkte.jpg");
-  height: 1080px;
-  width: 100%;
-  background-size: cover;
+#produkte {
+  height: 100vh;
 }
 
 .rose {
@@ -323,15 +358,26 @@ article {
 .slider {
   height: 30vh;
   background-color: #FFE2E2;
-  color: #000!important;
+  color: #000 !important;
 }
 
 .presse .active {
   background-color: #FFE2E2;
 }
 
+#presse .carousel-item {
+  height: 500px;
+  background-color: #FFE2E2;
+}
+
 .carousel-caption {
-  color: #000!important;
+  color: #000 !important;
+  padding: none!important;
+  right: 0!important;
+  bottom: 0!important;
+  left: 0!important;
+  position: relative;
+  top: 40%;
 }
 
 /* Slideshow container */
@@ -486,9 +532,9 @@ article {
   }
 
 
-.counter-klein {
-  width: 15%;
-}
+  .counter-klein {
+    width: 15%;
+  }
 }
 
 @media (min-width:768px) {
@@ -496,6 +542,7 @@ article {
     display: none;
   }
 }
+
 .impressum {
   margin: 0;
   background-color: #FFE2E2;
