@@ -262,10 +262,6 @@ article {
   padding-top: 30px !important;
 }
 
-.umbruch2 {
-  padding-bottom: 30px !important;
-}
-
 
 .header {
   /*  overflow: hidden;
@@ -348,6 +344,7 @@ article {
 }
 
 
+
 .voices-img {
   display: inline-block;
   position: relative;
@@ -365,8 +362,7 @@ article {
 
 .voices-block {
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 10px;
 }
 
 
