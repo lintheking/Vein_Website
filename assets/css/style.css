@@ -121,6 +121,7 @@ nav a.active {
   text-align: center;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 #burgermenu {
@@ -138,56 +139,6 @@ nav a.active {
 .carousel-caption {
   color: black !important;
 }
-
-#footer {
-  padding: 0;
-  background-color: #FFE2E2;
-}
-
-footer i {
-  font-size: 1.5em;
-}
-
-footer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-footer ul li {
-  padding: 0 !important;
-  display: inline-block;
-}
-
-footer li a {
-  font-size: 16px;
-  padding: 20px;
-  display: inline-block;
-  color: black;
-  text-decoration: none !important;
-  width: 100%;
-}
-
-footer li:hover {
-  font-size: 16px;
-
-  color: white;
-
-  text-decoration: none;
-}
-
-
-footer a:hover {
-
-  color: #000000;
-}
-
-
-
-footer a.active {
-  color: #ffffff;
-}
-
 
 
 .inactive:hover {
