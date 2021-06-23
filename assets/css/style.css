@@ -176,8 +176,10 @@ article {
 }
 }
 
-.rolemodel {
+
+.rolemodel-text {
   text-align: center!important;
+
 }
 
 .rolemodel {
@@ -232,6 +234,7 @@ article {
 .umbruch2 {
   padding-bottom: 30px !important;
 }
+
 
 .header {
   /*  overflow: hidden;
@@ -503,6 +506,7 @@ article {
     display: none;
   }
 }
+
 
 .impressum {
   margin: 0;
