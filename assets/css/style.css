@@ -34,15 +34,33 @@ p {
   border-color: #000;
 }
 
+.btn-primary:hover {
+  background-color: #fff !important;
+  border-color: #000;
+  color: #000!important;
+}
+
 .btn-secondary {
   background-color: #efbbbb !important;
   border-color: #efbbbb;
+}
+
+.btn-secondary:hover {
+  background-color: #fff !important;
+  border-color: #efbbbb;
+  color: #efbbbb;
 }
 
 .btn-green {
   background-color: rgb(155, 205, 155) !important;
   border-color: rgb(155, 205, 155);
   color: white;
+}
+
+.btn-green:hover {
+  background-color: #fff !important;
+  border-color: rgb(155, 205, 155);
+  color: rgb(155, 205, 155);
 }
 
 /*nav {
