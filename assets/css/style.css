@@ -71,6 +71,10 @@ nav .fab {
   color: #000;
   font-size: 1.3em;
 }
+
+.hover:hover {
+  background-color: #FFE2E2;
+}
 /*
 nav i {
   font-size: 1.5em;
