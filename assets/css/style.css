@@ -47,7 +47,7 @@ font-family: 'Cairo', sans-serif!important;
 
 .navbar-brand {
   width: 40px;
- 
+
 }
 
 .nav-link {
@@ -64,7 +64,7 @@ font-family: 'Cairo', sans-serif!important;
 }
 
 nav .active {
-  background-color: #fff !important;
+  background-color: rgba(255, 226, 226, 0.0) !important;
 }
 
 nav .fab {
@@ -97,12 +97,7 @@ nav a {
   width: 100%;
 }
 
-nav li:hover {
-  font-size: 16px;
-  color: white;
-  background-color: #FFE2E2;
-  text-decoration: none;
-}
+
 
 
 nav a:hover {
