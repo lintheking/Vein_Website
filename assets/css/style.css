@@ -176,8 +176,13 @@ article {
 }
 }
 
-.VEganistIN {
+.rolemodel {
+  text-align: center!important;
+}
+
+.rolemodel {
   color: rgb(155, 205, 155);
+  text-align: center!important;
 }
 
 .details {
@@ -298,6 +303,8 @@ article {
 
 .voices-block {
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 
