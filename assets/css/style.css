@@ -30,8 +30,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #000000 !important;
-  border-color: #000000;
+  background-color: #000 !important;
+  border-color: #000;
+}
+
+.btn-secondary {
+  background-color: #efbbbb !important;
+  border-color: #efbbbb;
 }
 
 /*nav {
