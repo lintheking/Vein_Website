@@ -176,8 +176,10 @@ article {
 }
 }
 
-.rolemodel {
+
+.rolemodel-text {
   text-align: center!important;
+
 }
 
 .rolemodel {
@@ -233,11 +235,16 @@ article {
   padding-bottom: 30px !important;
 }
 
+
 .header {
   /*  overflow: hidden;
   padding: 0px;
   height: 100vh;
 }*/
+}
+
+.blocksatz {
+  text-align: justify!important;
 }
 
 
@@ -519,6 +526,7 @@ article {
     display: none;
   }
 }
+
 
 .impressum {
   margin: 0;
