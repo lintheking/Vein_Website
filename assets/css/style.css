@@ -55,6 +55,7 @@ p {
 .rose-overlay:hover {
   background-image:url('../images/rose.png');
   cursor: pointer;
+  
 }
 
 .rotwein-overlay {
@@ -204,6 +205,14 @@ nav a.active {
 hr {
   border: 2px solid #FFE2E2;
 }
+
+.kreis {
+  position: absolute;
+  width: 20%;
+  left: 10%;
+  z-index: 1;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 50px;
