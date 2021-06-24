@@ -325,6 +325,12 @@ hr {
   background-color: #FFE2E2;
 }
 
+@media (max-width: 600px){
+  #presse .carousel-item {
+    height: 400px;
+  }
+}
+
 #presse p {
   width: 50%;
     margin-left: 25%!important;
@@ -391,8 +397,7 @@ hr {
   }
 }
 
-@media (min-wi
-  dth:991px) {
+@media (min-width:991px) {
   #products {
     display: none;
   }
