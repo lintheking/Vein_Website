@@ -33,6 +33,73 @@ p {
   margin-right: 5%;
 }
 
+.bg-image {
+  background-image: url('../images/produkte.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: 1920px; 
+  background-position-y: -200px;
+  height: 760px;
+  position:relative;
+}
+
+
+.rose-overlay {
+  position: absolute;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  top: 88px;
+  left: 692px;
+  height: 646px;
+  width: 175px;
+}
+.rose-overlay:hover {
+  background-image:url('../images/rose.png');
+  cursor: pointer;
+}
+
+.rotwein-overlay {
+  position: absolute;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  top: 88px;
+  left: 839px;
+  height: 644px;
+  width: 174px;
+}
+.rotwein-overlay:hover {
+  background-image:url('../images/rotwein.png');
+  cursor: pointer;
+}
+
+.weisswein-overlay {
+  position: absolute;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  top: 58px;
+  left: 984px;
+  height: 636px;
+  width: 175px;
+}
+.weisswein-overlay:hover {
+  background-image:url('../images/weisswein.png');
+  cursor: pointer;
+}
+
+@media (max-width:1200px) {
+  .bg-image {
+    background-position-x:-400px;
+  }
+  .rose-overlay {
+    left:292px;
+  }
+  .rotwein-overlay {
+    left: 439px;
+  }
+  .weisswein-overlay {
+    left: 584px;
+  }
+}
+
 .btn-primary {
   background-color: #000 !important;
   border-color: #000;
@@ -240,4 +307,16 @@ hr {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width:991px) {
+  #produkte {
+    display: none;
+  }
+}
+
+@media (min-width:991px) {
+  #products {
+    display: none;
+  }
 }
