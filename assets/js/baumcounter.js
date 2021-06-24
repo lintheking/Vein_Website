@@ -1,14 +1,3 @@
-<script>
-    $(document).ready(function() {
-        $("#meinKarussell").swiperight(function() {
-            $(this).carousel('prev');
-        });
-        $("#meinKarussell").swipeleft(function() {
-            $(this).carousel('next');
-        });
-    });
-</script>
-
 $(function () {
 
   $('a[href*="#"]').click(function (e) {
