@@ -395,7 +395,8 @@ hr {
   }
 }
 
-@media (min-width:991px) {
+@media (min-wi
+  dth:991px) {
   #products {
     display: none;
   }
