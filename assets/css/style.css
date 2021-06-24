@@ -325,6 +325,17 @@ hr {
   background-color: #FFE2E2;
 }
 
+#presse p {
+  width: 100%;
+}
+
+
+@media (max-width:600px){
+  #presse p {
+    width: 50%;
+  }
+}
+
 .carousel-caption {
   color: #000 !important;
   padding: none !important;
