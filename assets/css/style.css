@@ -3,6 +3,11 @@
   font-family: 'Helvetica', sans-serif;
 }
 
+body {
+	max-width:1920px;
+	margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -86,7 +91,7 @@ nav .fab {
 
 
 .background-nav {
-  background-color: rgba(255, 226, 226, 0.5) !important;
+  background-color: rgba(255, 226, 226, 0.7) !important;
 }
 
 nav a.active {
@@ -141,15 +146,28 @@ nav a.active {
 
 .carousel-control-next-icon:after
 {
-  content: '>';
+  content: '';
   font-size: 55px;
-  color: #000;
+  color: #fff;
+  background-color: #5FA361;
+  width: 1em;
+  height: 1em;
+  display: block;
+  border-radius: 100% 0;
 }
 
-.carousel-control-prev-icon:after {
-  content: '<';
+
+
+.carousel-control-prev-icon:after
+{
+  content: '';
   font-size: 55px;
-  color: #000;
+  color: #fff;
+  background-color: #5D78CE;
+  width: 1em;
+  height: 1em;
+  display: block;
+  border-radius: 0 100%;
 }
 
 .voices-img {
