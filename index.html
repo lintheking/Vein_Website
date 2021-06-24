@@ -123,7 +123,7 @@
             <div class="col-12 col-sm-12 col-md-8">
               <img src="assets/images/baum.png" id="baum" alt="Baum">
               <div class="baumcounter">
-                <p><strong>Ihr habt bisher</strong></p>
+                <h3>Ihr habt bisher</h3>
                 <span class="number" data-number="0">
                   <span class="primary">
                   </span>
@@ -148,7 +148,7 @@
                   <span class="secondary">
                   </span>
                 </span>
-                <p><strong>Bäume gepflanzt</strong></p>
+                <h3>Bäume gepflanzt</h3>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@
 
   <section id="products" class="py-5">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
+      <div id="meinKarussell" class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="container">
             <div class="row">
@@ -221,7 +221,7 @@
                 <h2>Rosé</h2>
                 <p><em>Halbtrocken</em></p>
 
-                <p>Unser fruchtig, lebhafter Rosé ist der perfekte Begleiter für einen vollmundigen Genuss in den Sommermonaten.
+                <p>Uner fruchtig, lebhafter Rosé ist der perfekte Begleiter für einen vollmundigen Genuss in den Sommermonaten.
                   Er bringt feine florale Noten, sowie eine erfrischende Säure und eine zarte Mineralität elegant zusammen. Im Gaumen erwarten
                   dich schöne fruchtige Nuancen von Himbeere und Rhabarber. </p>
 
@@ -288,17 +288,20 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item text-center">
+        <div class="carousel-item text-center meinKarussell">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-xl-6">
-                <img src="assets/images/rose-foto.jpg" alt="Rose"  width="100%">
+                <img src="assets/images/weisswein-foto.jpg" alt="Weisswein" width="100%">
               </div>
               <div class="col-sm-12 col-xl-6">
                 <h2>Weißwein</h2>
                 <p><em>Halbtrocken</em></p>
 
-                <p>Unser gut eingebundener, frischer Weißwein überzeugt durch sein feines Spiel zwischen tropischer Frucht und floralen Zügen. Im Gaumen wird dich ein Geschmackserlebnis aus Holunder, Akazie, Lychee und Stachelbeere erwarten.</p>
+                <p>Unser gut eingebundener, frischer Weißwein überzeugt durch sein
+                  feines Spiel zwischen tropischer Frucht und floralen Zügen. Im Gaumen wird dich ein
+                  Geschmackserlebnis aus Holunder, Akazie, Lychee und Stachelbeere erwarten.</p>
+
 
                 <table class="table caption-top my-5">
                   <thead>
@@ -324,157 +327,15 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev align-items-end" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next align-items-end" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
-</section>
-
-<section id="produkte">
-    
-  <div class="container-fluid">
-    <div class="bg-image">
-    <div class="rose-overlay" data-toggle="modal" data-target="#rose1"></div>
-    <div class="rotwein-overlay" data-toggle="modal" data-target="#rose2"></div>
-    <div class="weisswein-overlay " data-toggle="modal" data-target="#rose3"></div>
-
-    <div class="justify-content-center text-center ">
-       
-      
-
-        <div class="modal" id="rose1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-          <div class="modal-dialog-centered" role="document">
-            <div class="modal-content">
-               <div class="modal-body">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">
-                      <img src="assets/images/rose-foto.jpg" width="100%">
-                    </div>
-                    <div class="col-6">
-                      <h2>Rosé</h2>
-                <p><em>Halbtrocken</em></p>
-
-                <p>Unser fruchtig, lebhafter Rosé ist der perfekte Begleiter für einen vollmundigen Genuss in den Sommermonaten.
-                  Er bringt feine florale Noten, sowie eine erfrischende Säure und eine zarte Mineralität elegant zusammen. Im Gaumen erwarten
-                  dich schöne fruchtige Nuancen von Himbeere und Rhabarber. </p>
-
-                <table class="table caption-top my-5">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"><i class="fas fa-percentage"></i></th>
-                      <th scope="col"><i class="fas fa-wine-bottle"></i></th>
-                      <th scope="col"><i class="fas fa-temperature-low"></i></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row"></th>
-                      <td>0,0</td>
-                      <td>0,75</td>
-                      <td>2 °C</td>
-                    </tr>
-                  </tbody>
-                </table>
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="modal" id="rose2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-          <div class="modal-dialog-centered" role="document">
-            <div class="modal-content">
-               <div class="modal-body">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">
-                      <img src="assets/images/rotwein-foto.jpg" width="100%">
-                    </div>
-                    <div class="col-6">
-                      <h2>Rotwein</h2>
-                <p><em>Halbtrocken</em></p>
-
-                <p>Unser kirschroter, samtiger Rotwein überzeugt mit seinem kräftigen Aroma.
-                  Durch seine angemessene Restsüße sorgt er für ein gutes Volumen mit vanilligen Tönen. Im Gaumen wird dich
-                  ein harmonisches Finale aus feinen Tannine und dunklen Früchten erwarten.</p>
-
-                <table class="table caption-top my-5">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"><i class="fas fa-percentage"></i></th>
-                      <th scope="col"><i class="fas fa-wine-bottle"></i></th>
-                      <th scope="col"><i class="fas fa-temperature-low"></i></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row"></th>
-                      <td>0,0</td>
-                      <td>0,75</td>
-                      <td>16 °C</td>
-                    </tr>
-                  </tbody>
-                </table>
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="modal" id="rose3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-          <div class="modal-dialog-centered" role="document">
-            <div class="modal-content">
-               <div class="modal-body">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-6">
-                      <img src="assets/images/weisswein-foto.jpg" width="100%">
-                    </div>
-                    <div class="col-6">
-                      <h2>Weißwein</h2>
-                      <p><em>Halbtrocken</em></p>
-
-                      <p>Unser gut eingebundener, frischer Weißwein überzeugt durch sein feines Spiel zwischen tropischer Frucht und floralen Zügen. Im Gaumen wird dich ein Geschmackserlebnis aus Holunder, Akazie, Lychee und Stachelbeere erwarten.</p>
-
-                        <div class="col-6">
-                          <div class="col-4">
-                            0,0%
-                          </div>
-                          <div class="col-4">
-                            0,0%
-                          </div>
-                          <div class="col-4">
-                            0,0%
-                          </div>
-                        </div>
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
 </section>
 
   <hr></hr>
