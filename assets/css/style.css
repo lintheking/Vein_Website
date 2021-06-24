@@ -101,6 +101,19 @@ p {
   }
 }
 
+
+.produktinfo {
+  margin-top: 5%;
+}
+
+
+@media (max-width:1200px) {
+  
+    .produktinfo {
+      margin-top: 0;
+    }
+  }
+
 .btn-primary {
   background-color: #000 !important;
   border-color: #000;
@@ -279,8 +292,7 @@ hr {
   bottom: 0!important;
   left: 0!important;
   position: relative;
-  top: 3
-  0%;
+  top: 30%;
 }
 
 .slideshow-container {
