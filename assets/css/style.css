@@ -326,15 +326,11 @@ hr {
 }
 
 #presse p {
-  width: 100%;
+  width: 50%;
+    margin-left: 25%!important;
 }
 
 
-@media (max-width:600px){
-  #presse p {
-    width: 50%;
-  }
-}
 
 .carousel-caption {
   color: #000 !important;
