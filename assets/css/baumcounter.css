@@ -93,6 +93,12 @@
   height: 1.5em;
 }
 
+@media (max-width:600px) {
+  .number {
+    font-size: 4em;
+  }
+}
+
 .number span {
   position: absolute;
   display: block;

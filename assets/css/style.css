@@ -4,8 +4,8 @@
 }
 
 body {
-	max-width:1920px;
-	margin: 0 auto;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 h1,
@@ -18,10 +18,24 @@ h6 {
 }
 
 h1 {
-  font-size: 10em;
+  font-size: 8em;
   line-height: 0.8;
   color: #000000;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:900px)  and (min-width:700px) {
+  h1 {
+    font-size: 2em;
+    line-height: 0.8;
+  }
+}
+
+@media (max-width:1500px) and (min-width:900px) {
+  h1 {
+    font-size: 5em;
+    line-height: 0.8;
+  }
 }
 
 p {
@@ -33,69 +47,96 @@ p {
   margin-right: 5%;
 }
 
+.headertext {
+  position: absolute;
+  z-index: 1;
+  right: 10%;
+  top: 40%;
+}
+
+@media (max-width:900px) and (min-width:700px) {
+  .headertext {
+    right: 10%;
+    top: 60%;
+  }
+}
+
+@media (max-width:1500px) {
+  .headertext {
+    right: 10%;
+    top: 50%;
+  }
+}
+
 .bg-image {
-  background-image: url('../images/produkte.jpg'); 
-  background-repeat: no-repeat; 
-  background-size: 1920px; 
+  background-image: url('../images/produkte.jpg');
+  background-repeat: no-repeat;
+  background-size: 1920px;
   background-position-y: -200px;
   height: 760px;
-  position:relative;
+  position: relative;
 }
 
 
 .rose-overlay {
   position: absolute;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   top: 88px;
   left: 692px;
   height: 646px;
   width: 175px;
 }
+
 .rose-overlay:hover {
-  background-image:url('../images/rose.png');
+  background-image: url('../images/rose.png');
   cursor: pointer;
-  
+
 }
 
 .rotwein-overlay {
   position: absolute;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   top: 88px;
   left: 839px;
   height: 644px;
   width: 174px;
 }
+
 .rotwein-overlay:hover {
-  background-image:url('../images/rotwein.png');
+  background-image: url('../images/rotwein.png');
   cursor: pointer;
 }
 
 .weisswein-overlay {
   position: absolute;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   top: 58px;
   left: 984px;
   height: 636px;
   width: 175px;
 }
+
 .weisswein-overlay:hover {
-  background-image:url('../images/weisswein.png');
+  background-image: url('../images/weisswein.png');
   cursor: pointer;
 }
 
 @media (max-width:1200px) {
   .bg-image {
-    background-position-x:-400px;
+    background-position-x: -400px;
   }
+
   .rose-overlay {
-    left:292px;
+    left: 292px;
   }
+
   .rotwein-overlay {
     left: 439px;
   }
+
   .weisswein-overlay {
     left: 584px;
   }
@@ -108,11 +149,11 @@ p {
 
 
 @media (max-width:1200px) {
-  
-    .produktinfo {
-      margin-top: 0;
-    }
+
+  .produktinfo {
+    margin-top: 0;
   }
+}
 
 .btn-primary {
   background-color: #000 !important;
@@ -122,7 +163,7 @@ p {
 .btn-primary:hover {
   background-color: #fff !important;
   border-color: #000;
-  color: #000!important;
+  color: #000 !important;
 }
 
 .btn-secondary {
@@ -154,7 +195,7 @@ p {
 }
 
 .nav-link {
-  color: #000!important;
+  color: #000 !important;
 }
 
 nav .active {
@@ -189,7 +230,7 @@ nav a.active {
 
 .rolemodel {
   color: rgb(155, 205, 155);
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .details {
@@ -205,7 +246,7 @@ nav a.active {
 
 .baumcounter {
   text-align: center;
-  color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
   font-size: 1.2em;
 }
 
@@ -236,8 +277,7 @@ hr {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '';
   font-size: 55px;
   color: #fff;
@@ -250,8 +290,7 @@ hr {
 
 
 
-.carousel-control-prev-icon:after
-{
+.carousel-control-prev-icon:after {
   content: '';
   font-size: 55px;
   color: #fff;
@@ -287,10 +326,10 @@ hr {
 
 .carousel-caption {
   color: #000 !important;
-  padding: none!important;
-  right: 0!important;
-  bottom: 0!important;
-  left: 0!important;
+  padding: none !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
   position: relative;
   top: 30%;
 }
@@ -330,6 +369,13 @@ hr {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+
+#kontakt iframe {
+  width: 100%;
+  height: 100%;
+}
+
 
 @media (max-width:991px) {
   #produkte {
