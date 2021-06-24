@@ -133,7 +133,9 @@ nav a.active {
 
 }
 
-
+hr {
+  border: 2px solid #FFE2E2;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 50px;
