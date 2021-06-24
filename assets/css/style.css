@@ -191,7 +191,7 @@ hr {
 }
 
 #presse .carousel-item {
-  height: 500px;
+  height: 300px;
   background-color: #FFE2E2;
 }
 
@@ -202,7 +202,7 @@ hr {
   bottom: 0!important;
   left: 0!important;
   position: relative;
-  top: 40%;
+  top: 30%;
 }
 
 .slideshow-container {
