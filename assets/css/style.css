@@ -47,6 +47,40 @@ p {
   margin-right: 5%;
 }
 
+.padding-baum {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+@media (max-width:1200px) and (min-width:900px)  {
+  .padding-baum {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width:900px)  {
+  .padding-baum {
+    padding-bottom: 220px;
+  }
+}
+
+.baum-img {
+  position: absolute;
+  right: 40%;
+}
+
+@media (max-width:1500px) and (min-width:900px) {
+  .baum-img {
+    right: 60%;
+  }
+}
+
+@media (max-width:1070px)  {
+   .baum-img {
+    display: none;
+  }
+}
+
 .headertext {
  color: #fff;
   position: absolute;
