@@ -58,7 +58,7 @@ p {
   }
 }
 
-@media (max-width:900px)  {
+@media (max-width:992px)  {
   .padding-baum {
     padding-bottom: 220px;
   }
