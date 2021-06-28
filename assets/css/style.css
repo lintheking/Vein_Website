@@ -380,7 +380,24 @@ hr {
     margin-left: 25%!important;
 }
 
+.presse-headline {
+  position: absolute;
+  z-index: 1;
+  margin-left: 42%;
+  top: 15%;
+}
 
+@media (min-width: 600px) and (max-width: 900px) {
+  .presse-headline {
+    margin-left: 34%;
+  }
+}
+
+@media (max-width: 600px){
+  .presse-headline {
+    margin-left: 25%;
+  }
+}
 
 .carousel-caption {
   color: #000 !important;
