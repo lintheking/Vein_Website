@@ -24,18 +24,32 @@ h1 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.klapptext {
+  left: -3%;
+}
+
+@media (max-width:991px) {
+  .klapptext {
+    left: 0%;
+  }
+}
+
 .blocksatz {
   text-align: justify;
 }
 
-@media (max-width:900px)  {
+@media (max-width:991px)  {
   .blocksatz {
     text-align: center;
   }
   
 }
 
-@media (max-width:900px)  {
+.blocksatz-responsive {
+  text-align: justify;
+}
+
+@media (max-width:991px)  {
 .natur-headline {
   text-align: center;
 }
@@ -285,7 +299,7 @@ p {
   color: rgb(155, 205, 155);
 }
 
-@media (max-width:900px) {
+@media (max-width:991px) {
   .btn-mitte {
     display: flex;
     justify-content: center;
