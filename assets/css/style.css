@@ -474,6 +474,11 @@ hr {
   top: 15%;
 }
 
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media (min-width: 600px) and (max-width: 900px) {
   .presse-headline {
     margin-left: 34%;
