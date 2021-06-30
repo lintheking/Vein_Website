@@ -196,6 +196,7 @@ p {
   left: 692px;
   height: 646px;
   width: 175px;
+  cursor: pointer;
 }
 
 .rose-overlay:hover {
@@ -212,6 +213,7 @@ p {
   left: 839px;
   height: 644px;
   width: 174px;
+  cursor: pointer;
 }
 
 .rotwein-overlay:hover {
@@ -227,6 +229,7 @@ p {
   left: 984px;
   height: 636px;
   width: 175px;
+  cursor: pointer;
 }
 
 .weisswein-overlay:hover {
@@ -241,14 +244,17 @@ p {
 
   .rose-overlay {
     left: 292px;
+    cursor: pointer;
   }
 
   .rotwein-overlay {
     left: 439px;
+    cursor: pointer;
   }
 
   .weisswein-overlay {
     left: 584px;
+    cursor: pointer;
   }
 }
 
