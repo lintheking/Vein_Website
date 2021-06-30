@@ -252,6 +252,17 @@ p {
   }
 }
 
+.teamfoto {
+  width:80%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width100 {
+  height: 100%;
+}
 
 .produktinfo {
   margin-top: 5%;
